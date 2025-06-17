@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Jupyter Notebook (Poetry)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/.venv/bin/jupyter",
+            "args": [
+                "notebook"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+} 
